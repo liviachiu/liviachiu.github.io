@@ -1,0 +1,273 @@
+/*按Contrl+斜線可以增加註解.qqq {*/
+@import './reset.css';
+@import url(https://fonts.googleapis.com/css?family=Courgette|Lato|Montserrat|Noto+Sans+TC|Open+Sans|Roboto|Sarabun|Source+Sans+Pro&display=swap"rel="stylesheet);
+
+* {
+    font-size: 14px;
+    font-family: 'Sarabun', sans-serif, 'Noto Sans TC', sans-serif, 'Roboto', sans-serif;
+    box-sizing: border-box;
+    overflow: auto;
+    margin: 0px;
+    padding: 0;
+}
+
+/*全部字體的意思*/
+.NavBar {
+    background-color: grey;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    position: fixed;
+    margin-top: 0px;
+    border: 0px;
+    padding-top: 0px;
+    z-index: 2;
+}
+
+.NavBar .left {
+    display: inline-block;
+}
+
+.NavBar ul {
+
+    display: inline-block;
+    text-align: top;
+    margin-bottom: 18px;
+
+}
+
+.NavBar ul li {
+    font-size: 16px;
+    color: darkgray;
+    padding-right: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.NavBar img {
+    height: 55px;
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.NavBar .right .icon img {
+    height: 25px;
+}
+
+.NavBar .right .icon p {
+    font-size: 11px;
+    margin-top: 0px;
+}
+
+.NavBar .right .icon {
+    display: inline-block;
+    padding: 10px;
+
+    text-align: center;
+}
+
+.NavBar .right {
+    float: right;
+}
+
+.Jumbotorn img {
+    margin-top: 60px;
+    width: 1920px;
+
+
+}
+
+.Jumbotorn {
+    margin-top: 60px;
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/c415e279-b97d-4896-bcfc-b8e3ad45959a-53063714_06_d4-1.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    min-width: 100%;
+}
+
+.title {
+
+    width: 603px;
+    padding-top: 340px;
+
+    margin: 0 auto;
+
+}
+
+.Jumbotorn h1 {
+    font-family: 'Montserrat', sans-serif;
+
+
+    font-size: 60px;
+    color: aliceblue;
+
+}
+
+.Jumbotorn p {
+    font-family: 'Montserrat', sans-serif;
+
+
+    font-size: 30px;
+    color: aliceblue;
+
+}
+
+.SearchBar {
+    width: 800px;
+    margin: 60px auto;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.SearchBar input {
+    width: 100%;
+    font-family: 'sarabun';
+
+    color: #d1d1d1;
+    padding: 30px;
+    padding-left: 35px;
+    padding-bottom: 0px;
+    font-size: 17px;
+
+    letter-spacing: 4px;
+    border: none;
+    text-decoration: underline;
+
+}
+
+.SearchBar img {
+    position: absolute;
+    top: 40px;
+    z-index: 1;
+    width: 20px;
+}
+
+.content {
+    width: 100%;
+    height: 900px;
+    padding: 70px;
+    overflow: hidden;
+   margin-bottom: 90px;
+
+
+}
+
+.ContentLeft {
+    width: 50%;
+    height: 900px;
+    float: left;
+    position: relative;
+    padding-right: 20px;
+}
+
+.ContentRight {
+    width: 50%;
+    height: 900px;
+    background-image: url(../img/mango-violeta-plussize-2019-spring-tavasz-07.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+
+
+.ContentLeft1 {
+    width: 100%;
+
+
+}
+
+.ContentLeft2 {
+    width: 100%;
+    padding-right: 10px;
+}
+
+.ContentLeft2 img {
+    width: 50%;
+    height: auto;
+    float: left;
+
+    padding-right: 10px;
+    vertical-align: bottom;
+
+}
+
+.imggroup img {
+    width: 100%;
+}
+
+.imggroup {
+    position: absolute;
+    bottom: 70px;
+}
+
+.img1 {
+    width: 50%;
+    float: left;
+}
+
+.img2 {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+#DRESSES {
+    position: absolute;
+    bottom: 10px;
+    left: 17px;
+}
+
+.ContentLeft1 p {
+
+    color: #bababa;
+    display: inline-block;
+    border: 1px solid #bababa;
+    padding: 5px 10px;
+    border-radius: 24px;
+    margin: 2px;
+    margin-bottom: 7px;
+}
+
+.ContentLeft1 h1 {
+    line-height: -170px;
+    font-family: 'Sarabun', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding-top: -30px;
+
+    padding-bottom: 20px;
+}
+
+.kind {
+    font-family: 'arial';
+    font-weight: 700;
+    text-align: left;
+    font-size: 16px;
+    vertical-align: middle;
+    color: aliceblue;
+}
+
+#JACKETS {
+    position: absolute;
+    bottom: 80px;
+    left: 19px;
+}
+
+#T-SHIRTS {
+    position: absolute;
+    bottom: 80px;
+    left: 19px;
+}
+
+.New {
+    height: 500px;
+    width: 100%;
+    padding: 70px;
+    overflow: hidden;
+}
